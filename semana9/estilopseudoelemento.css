@@ -1,0 +1,16 @@
+p::first-line {
+    color: red;
+    text-transform: uppercase;
+    }
+    p::before {
+        content: url("imgs/bg1.jpg");
+        display: block;
+      }
+      p::after {
+        content: url("imgs/bg2.jpg");
+        display: block;
+      }
+      ::selection {
+        background: pink;
+        color: blue;
+        }

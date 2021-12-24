@@ -1,0 +1,27 @@
+h1#primeiroParagrafo  {
+	color: red;
+}
+
+h1,  #primeiroParagrafo  {
+	font-family: Helvetica;
+}
+
+#primeiroParagrafo span {
+	text-transform: uppercase;
+}
+
+#segundoParagrafo span {
+	color: red;
+}
+
+#primeiroParagrafo {
+	font-style: italic;
+}
+
+#segundoParagrafo {
+	font-weight: bold;
+}
+
+#terceiroParagrafo {
+	font-size: 32px;
+}

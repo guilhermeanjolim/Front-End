@@ -1,0 +1,28 @@
+p {	
+	color:#ff0000;
+	font-size:48px;
+	font-weight:bold; 
+	background-color:#0000ff; 
+	width:300px;
+}
+/*
+	h2 {color: rgb(0,0,255); }
+	h3 {color: mediumblue; }
+	h4 {color: darkblue; }
+	h2 {background-color: rgba(0,0,255,0.7); }
+	h3 {background-color: rgba(0,0,255,0.5); }
+	h4 {background-color: rgba(0,0,255,0.3); }
+	h5 {background-color: rgba(0,0,255,0.1); }
+*/
+h1 {
+	color: hsl(200, 100%, 80%); 
+	background-color: rgba(0,0,255,0.9); 
+}
+body { 
+	background-color: black;
+	background-image: url("../imgs/background-repeat.jpg");
+	background-repeat: repeat;
+	background-position:right bottom;
+	background-attachment: fixed;
+}
+

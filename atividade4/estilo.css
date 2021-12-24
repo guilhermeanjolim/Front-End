@@ -1,0 +1,104 @@
+html {background-color: #535e63;
+
+}
+header {
+    color: hsl(0, 0%, 100%);
+}
+nav {
+    text-align: center;
+    background-color: rgb(56, 128, 150);
+    padding: 15px;
+}	
+
+main {text-align: center;
+    color: white
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 280px;
+  }
+
+footer {
+    display: block;
+    text-align: center;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    font-family: serif;
+    font-size: 37px;
+    font-style: normal;
+}
+    
+h3 {
+    text-align: center;
+    font-family: auto;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    font-family: Helvetica;
+    left: 450px;
+    background-color: rgb(114, 191, 204);
+    color: white;
+    text-align: center;
+    padding: 15px 25px; border-radius: 80px;   
+}
+
+a:hover {
+    background-color: #b2ece8;
+  }
+
+a:active {
+    background-color: #0991e0;
+  }
+
+div{
+    text-align: center;
+    font-style: unset;
+    color: #cdd7d4;
+    margin: 10px;
+}
+
+span{
+    font-weight: bold;
+    color: #51aca6;
+}
+
+.titulo {
+    font-weight: bold;
+    color: #57dbb4;
+}
+
+.curriculo {
+    font-style: italic;
+    ;
+}
+
+.sub {
+    vertical-align: sub;
+}
+
+.linkfavoritos 
+    { text-decoration: none;
+    font-family: Helvetica;
+    left: 450px;
+    background-color: rgb(32, 128, 145);
+    color: white;
+    text-align: center;
+    padding: 15px 25px; border-radius: 80px;  
+
+}
+
+blockquote {
+    font: 14px/22px normal helvetica, sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    padding-left: 15px;
+}

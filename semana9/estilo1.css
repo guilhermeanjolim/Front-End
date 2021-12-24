@@ -1,0 +1,10 @@
+p, div {
+	border: solid 2px black;
+}
+img {
+	width: 30% ;
+	margin: 1%;
+  }
+#img1 {visibility: hidden;
+}
+#img2 {display: none;}

@@ -1,0 +1,42 @@
+.header {
+    background-color: lightGray;
+    text-align: center;
+    padding: 20px;
+  }
+  .footer {
+    background-color: lightGray;
+    text-align: center;
+    padding: 20px;
+  }
+  .menu {
+    overflow: hidden;
+    background-color: black;}
+  .menu a {
+    float: left;
+    display: block;
+    color: lightGray;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;}
+  .menu a:hover {
+    background-color: lightGray;
+    color: black;}
+
+    .coluna {
+        float: left;
+        width: 31%;
+        padding: 15px;
+      }
+      
+      .linha::after {
+        content: "";
+        display: block;
+        clear: both;
+      }
+      /* Telas grandes */
+@media only screen and (min-width: 1200px) { 
+	body {
+		width: 1200px; 
+		margin: 0 auto;
+	}
+}
