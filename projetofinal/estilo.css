@@ -3,27 +3,37 @@ html {background-color: #535e63;
 }
 header {
     color: hsl(0, 0%, 100%);
+    background-color: #394254;
+    padding: 25px;
 }
 nav {
     text-align: center;
     background-color: rgb(56, 128, 150);
     padding: 15px;
+    justify-content: center;
+    font-family: helvetica;
+    display: flex;
 }	
 
-main {text-align: center;
-    color: white
+main {
+    display: flex;
+    width: 1280px;
+    margin: 0 auto;
 }
 
 img {
     display: block;
     margin: 0 auto;
     width: 280px;
+    opacity: 0.8;
   }
 
 footer {
     display: block;
     text-align: center;
     color: white;
+    background-color: rgb(56, 128, 150);
+    padding: 15px
 }
 
 h1 {
@@ -32,7 +42,6 @@ h1 {
     font-size: 37px;
     font-style: normal;
 }
-    
 h3 {
     text-align: center;
     font-family: auto;
@@ -40,21 +49,24 @@ h3 {
     font-weight: bold;
 }
 
-a {
+
+nav a{
     text-decoration: none;
-    font-family: Helvetica;
-    left: 450px;
+    float: left;
     background-color: rgb(114, 191, 204);
     color: white;
     text-align: center;
-    padding: 15px 25px; border-radius: 80px;   
+    padding: 15px 25px;
+    border-radius: 80px;   
+    display: block;
 }
 
-a:hover {
+nav a:hover {
     background-color: #b2ece8;
+    color: black;
   }
 
-a:active {
+nav a:active {
     background-color: #0991e0;
   }
 
@@ -83,22 +95,57 @@ span{
 .sub {
     vertical-align: sub;
 }
-
-.linkfavoritos 
-    { text-decoration: none;
-    font-family: Helvetica;
-    left: 450px;
-    background-color: rgb(32, 128, 145);
-    color: white;
-    text-align: center;
-    padding: 15px 25px; border-radius: 80px;  
-
-}
-
 blockquote {
     font: 14px/22px normal helvetica, sans-serif;
     margin-top: 10px;
     margin-bottom: 10px;
     margin-left: 50px;
     padding-left: 15px;
+}
+.section {
+    text-align: center;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.col9 {
+    width: 70%;
+    box-sizing: border-box;
+}
+
+.col3 {
+    width: 30%;
+    box-sizing: border-box;
+}
+
+.aside {
+    text-align: center;
+    background: #394254;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.aside > div {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    margin: 5px 10px 5px 10px;
+}
+
+.aside > div > div {
+    padding: 10px;
+}
+ 
+.imgfav {
+    width: 55px;
+    height: 50px;
+    border-radius: 5px;
+}
+.img1 {
+    display: inline-block;
+    width: 250px;
+    height: 168px;
+    border-radius: 5px;
+
 }
