@@ -17,7 +17,6 @@ nav {
 
 main {
     display: flex;
-    width: 1280px;
     margin: 0 auto;
 }
 
@@ -110,12 +109,12 @@ blockquote {
 }
 
 .col9 {
-    width: 70%;
+    width: 75%;
     box-sizing: border-box;
 }
 
 .col3 {
-    width: 30%;
+    width: 25%;
     box-sizing: border-box;
 }
 
@@ -147,5 +146,4 @@ blockquote {
     width: 250px;
     height: 168px;
     border-radius: 5px;
-
 }
